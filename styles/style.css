@@ -1,0 +1,164 @@
+
+body{
+    background-color: #1e1e1e;
+    font-family: 'Inter 400', 'Areal';
+    font-size: 16px;
+}
+.content-section{
+    width: 360px;
+    box-sizing:border-box;
+    margin: auto;
+}
+section{
+    height: 100px;
+}
+.content-section_theme_dark{
+    /*с чёрным фоном и белым шрифтом*/
+    background-color: #131313;
+    color: white;
+}
+.content-section_theme_bright{
+    /*с жёлтым фоном и чёрным шрифтом*/
+    background-color: #FEE42A;
+    color: black;
+}
+section{
+    height: auto;
+}
+
+/*-----------header----------------*/
+.header{
+    padding: 24px 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.header__logo-image{
+    width: 78px;
+    height: 15px;
+}
+.header__menu-list{
+    list-style-type:none;
+}
+.header__menu-item{
+    padding: 0px 0px 12px;
+    text-decoration:underline;
+}
+.header__menu-item_active{
+    text-decoration: none;
+}
+.header__menu-link{
+    text-decoration: none;
+    color: white;
+}
+
+/*-----------section cover----------------*/
+.cover{
+    padding: 7px 20px;
+    font-size: 42px;
+    font-family: 'EB Garamond 700';
+    background-image: url(../images/cover.svg);
+    background-repeat:no-repeat;  
+    background-position: right center;
+    background-size: 95% auto;
+}
+.cover__title{
+    display: flex;
+    flex-direction: column;
+}
+.text-center{
+    text-align: center;
+}
+.text-right{
+    text-align: right;
+}
+
+/*-----------section intro----------------*/
+.intro{
+    padding: 30px 20px;
+}
+.intro__heading{
+    display: flex;
+    color: #CCCCCC;
+}
+.intro__date{
+    text-wrap: nowrap;
+}
+.intro__main-text p{
+    margin: 24px 0px 0px;
+}
+.intro__title{
+    font-size: 16px;
+    font-style: inherit;
+}
+
+/*-----------section reasons----------------*/
+.reasons{
+    padding: 40px 20px;
+}
+.content-section__subtitle{
+    display: flex;
+    flex-direction: column;
+    font-family: 'EB Garamond 500';
+    font-size: 28px;
+}
+.content-section__introduction{
+    margin: 32px 0px;
+    font-size: 20px;
+}
+.content-section__list-accent{
+    font-weight: bold;
+}
+.content-section__list-item{
+    margin: 16px 0px 0px 16px;
+}
+
+/*-----------section how-to----------------*/
+.how-to{
+    padding: 40px 20px;
+}
+.card_theme_dark{
+    background-color: #343434;
+    color: white;
+}
+.card_theme_bright{
+    background-color: #FEE42A;
+    color: black;
+}
+.cards-list{
+    list-style-type:none;
+}
+.card__author-photo{
+    width: 100px;
+}
+.card{
+    padding: 20px;
+    border-radius: 10%;
+
+}
+.card__author-name{
+    font-family: 'Inter 700';
+    
+}
+.card__title{
+    font-family: 'EB Garamond 500';
+    font-size: 22px;
+    margin: 8px 0px;
+}
+.card_text-only{
+    margin: 32px 0px;
+}
+/*-----------footer----------------*/
+.footer{
+    padding: 2% 20px;
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid yellow;
+}
+.footer__links{
+    display: flex;
+}
+.footer__links li{
+    margin: 0px 0px 0px 16px;
+    list-style: none;
+    
+}
