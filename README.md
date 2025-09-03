@@ -70,7 +70,6 @@ first-project/
 │   └── fonts.css       # Подключение шрифтов
 ├── fonts/              # Локальные шрифты
 ├── images/             # Изображения проекта
-├── screenshots/        # Скриншоты для README
 └── README.md           # Документация
 ```
 
